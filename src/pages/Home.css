@@ -1,0 +1,25 @@
+.home{
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    color: grey;
+    /* border: 2px solid green; */
+ }
+ .home__name{
+    color: steelblue;
+ }
+
+ .home__stack{
+    color: rgb(145, 89, 89);
+ }
+
+ .home__btn{
+   padding: 20px;
+   border: 1px solid steelblue;
+   color: steelblue;
+ }
+
+ .home__btn:hover{
+   background-color: #171515;;
+ }
