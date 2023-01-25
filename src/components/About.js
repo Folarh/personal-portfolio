@@ -5,20 +5,28 @@ import Photo from '../assets/photo.jpg'
 export default function About() {
   return (
     <div className='about'>
-       <div className='about__info'>
-       
-       <h3>About me.........................</h3>
-           
-            <p>
-                i am a web developer that specializes in frontend development, experienced in all the stages of the devlopment cycle for dynamic web projects
-                well versed in numerous  frontend tools.
-                </p>
+     <div className='about-header'>
+     <h3>About me.........................</h3>
+     </div>
 
-        </div>
+     <div className='about-all'>
+     <div className='about__info'>
+       <p>
+           i am a web developer that specializes in frontend development,<br/>
+           with a strong foundation in Htnl Css and Javascript <br/>
+           experienced in all the stages of the devlopment cycle <br></br>
+           for dynamic web projects
+           well versed in numerous  frontend tools.
 
-        <div className="about__image">
-            <img className='about__img' src={Photo} alt="my-pic"></img>
-        </div>
+           </p>
+</div>
+
+   <div className="about__image">
+       <img className='about__img' src={Photo} alt="my-pic"></img>
+   </div>
+     </div>
+
+      
       
     </div>
   )

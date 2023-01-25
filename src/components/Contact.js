@@ -45,8 +45,6 @@ export default function Contact() {
     <label>
       <span>Leave a message:</span>
       <textarea 
-      rows="5"
-       cols="48"
        onChange={(e)=>setMessage(e.target.value)}
       value={message}
       />

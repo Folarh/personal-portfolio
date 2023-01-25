@@ -22,14 +22,17 @@ export default function Skills() {
             <img src={Css} alt="htmllogo"/>
             <span>CSS</span>
             </div>
+            
             <div className='skills__images__img'>
             <img src={Js} alt="htmllogo"/>
             <span>JAVASCRIPT</span>
             </div>
+
             <div className='skills__images__img'>
             <img src={Bootstrap} alt="htmllogo"/>
             <span>BOOTSTRAP</span>
             </div>
+
             <div className='skills__images__img'>
             <img src={ReactLogo} alt="htmllogo"/>
             <span>REACT</span>

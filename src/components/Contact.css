@@ -5,6 +5,8 @@
    max-width: 980px;
    margin-top: 50px;
    align-items: center;
+   border: 2px solid silver;
+   border-radius: 10px;
    background-color: black;
    color: steelblue;
  
@@ -15,6 +17,7 @@
     max-width: 360px;
     margin: 60px auto;
     padding: 20px;
+    
    
 }
 
@@ -32,7 +35,14 @@
     padding: 8px 6px;
     font-size: 1em;
     color: #777;
-    width: 100%;
+   
+}
+
+.contact__form textarea{
+    padding: 8px 6px;
+    font-size: 1em;
+    height: 100px;
+    width: 200px;
 }
 
 

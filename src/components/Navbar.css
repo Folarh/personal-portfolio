@@ -4,7 +4,6 @@
     position: sticky;
     top:0;
     background-color: #171515;
-   /* box-shadow:  0 4px 2px 2px rgba(0,0,0,0.4); */
    border-bottom: 1px solid rgba(0,0,0,0.4);
     max-width: 980px;
     margin: 0 auto;
@@ -38,4 +37,50 @@ cursor: pointer;
     display: flex;
     justify-content: space-between;
     flex: 0.6;
+}
+.toggle{
+    display: none;
+}
+
+@media  screen and (max-width: 780px) {
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        background-color: #171515;
+    }
+
+    .navbar__logo{
+        display: flex;
+       align-items: center;
+       
+    }
+
+    .navbar__navigation{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+       
+        
+    }
+    /* .nav-links-mobile{
+        display: block;
+        list-style: none;
+        transition: all 0.5s ease-out;
+       
+
+    } */
+    /* a{
+        color: white;
+        text-align: centre;
+        padding: 32px;
+        transition:  all 0.5s ease;
+    }
+    .toggle{
+        width: 20px;
+        height: 20px;
+       
+    } */
 }
