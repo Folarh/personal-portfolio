@@ -10,7 +10,7 @@ export default function Skills() {
   return (
     <div className='skills'>
         <div className='skills__header'>
-        <h3>Skills.........................</h3>
+        <h2>Skills</h2>
         </div>
 
         <div className='skills__images'>

@@ -9,8 +9,8 @@ export default function User() {
     <h1 className='home__stack'>A FRONTEND DEVELOPER</h1>
     <p>I build things for the web, I like to craft solid and </p>
     <p>Scalable FRontend Products with great user experience</p>
-    <button className="home__btn">Download Resume</button>
-    {/* <input type="file"/> */}
+   
+   
 
 </div>
   )

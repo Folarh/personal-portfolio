@@ -1,3 +1,9 @@
 .app {
   background-color: #171515;
+ 
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }

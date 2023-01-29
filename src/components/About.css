@@ -1,10 +1,14 @@
 .about{
-   max-width: 980px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
    border-bottom: 2px solid grey;
    height: 500px;
    }
-   .about-header > h3{
+   .about-header > h2{
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;;
 }
 
    .about-all{
@@ -13,10 +17,13 @@
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
+   
    }
    .about__img{
     height: 200px;
     width: 250px;
     border: 2px solid steelblue;
     border-radius: 50%;
+    margin-top: 20px;
 }
+

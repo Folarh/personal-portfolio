@@ -1,11 +1,15 @@
 .home__info{
+  display: flex;
+  flex-direction: column;
     border-bottom: 2px solid grey;
     height: 500px;
     padding: 20px;
     align-items: center;
-    /* background-image: url(../assets/photo.jpg);
-    background-position: center;
-    background-size: cover; */
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  
 }
 
 .home__name{
@@ -18,9 +22,12 @@
  }
 
  .home__btn{
-   padding: 20px;
+   /* padding: 20px; */
    border: 1px solid steelblue;
    color: steelblue;
+   height: 30px;
+   margin-top: 20px;
+   border-radius: 5px;
  }
 
  .home__btn:hover{

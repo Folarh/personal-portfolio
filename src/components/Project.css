@@ -8,6 +8,8 @@
 }
 .project-header{
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 
@@ -16,7 +18,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .project-cover h4{
@@ -35,6 +37,7 @@ border: 2px solid silver;
 .project-title{
     flex: 0.5;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-device-width: 640px){

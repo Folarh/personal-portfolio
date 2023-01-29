@@ -47,6 +47,7 @@ export default function Contact() {
       <textarea 
        onChange={(e)=>setMessage(e.target.value)}
       value={message}
+     
       />
     </label>
 

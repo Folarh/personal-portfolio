@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Gracey from "../assets/gracey.png";
 import Github from "../assets/github clone1.png";
 import Ecommerce from "../assets/ecommerce1.png";
@@ -9,7 +8,7 @@ export default function Project() {
   return (
     <div className="project">
       <div className="project-header">
-        <h3>Featured work</h3>
+        <h2>Projects</h2>
       </div>
       <div className="project-cover">
           <div className="project-image">
