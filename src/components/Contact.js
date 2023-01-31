@@ -14,8 +14,10 @@ export default function Contact() {
   return (
     <div className='contact'>
         <div className='contact__info'>
-            <h3>Contact Me....</h3>
-            <p>i am currently available for any Entry level or Junior developer role,<br/> you can conact me if there's any job opening</p>
+            <h2>Contact Me....</h2>
+            <p>i am currently available for any Entry level or Junior developer role,<br/> 
+            i'm looking to collaborate with individuals, and company that aim to solve<br/>
+            real life problem</p>
             <div className='contact__details'>
                 <p>phone: 07048574809</p>
                 <p>email: folarintaiye@gmail.com</p>

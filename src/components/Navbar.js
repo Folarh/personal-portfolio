@@ -14,10 +14,10 @@ const [toggle, setToggle]=useState(false)
             <div className='links' >
       <div className='navbar__navigation' id={toggle?"hidden": ""} >
         <Link to="/" >Home</Link>
-        <Link to="/" >About</Link>
-        <Link to="/" >Skills</Link>
-        <Link to="/" >Projects</Link>
-        <Link to="/" >Contact</Link>
+        <Link to="/about" >About</Link>
+        <Link to="/skills" >Skills</Link>
+        <Link to="/projects" >Projects</Link>
+        <Link to="/contact" >Contact</Link>
          </div>
          <button className='btn' onClick={()=>setToggle(!toggle)}>
           {toggle? <CloseIcon/> : <MenuIcon/>}

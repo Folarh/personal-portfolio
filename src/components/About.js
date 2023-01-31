@@ -12,8 +12,8 @@ export default function About() {
      <div className='about-all'>
      <div className='about__info'>
        <p>
-           i am a web developer that specializes in frontend development,<br/>
-           with a strong foundation in Htnl Css and Javascript <br/>
+           I am a web developer that specializes in frontend development,<br/>
+           with a strong foundation in Html Css and Javascript <br/>
            experienced in all the stages of the devlopment cycle <br></br>
            for dynamic web projects
            well versed in numerous  frontend tools.

@@ -9,8 +9,16 @@
    border-radius: 10px;
    background-color: black;
    color: steelblue;
+   margin: 0 auto;
+     border-bottom: 2px solid grey; 
+    
  
    
+}
+
+.contact h2{
+    text-align: center;
+    color: white;
 }
 
 .contact__form{

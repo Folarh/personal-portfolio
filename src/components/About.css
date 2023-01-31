@@ -1,9 +1,11 @@
 .about{
     justify-content: center;
     align-items: center;
-    width: 100%;
    border-bottom: 2px solid grey;
    height: 500px;
+   max-width: 980px;
+   margin: 0 auto;
+   color: white;
    }
    .about-header > h2{
     text-align: center;
