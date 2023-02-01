@@ -1,9 +1,7 @@
 .home__info{
   display: flex;
   flex-direction: column;
-    border-bottom: 2px solid grey;
     height: 500px;
-    padding: 20px;
     align-items: center;
     text-align: center;
     justify-content: center;

@@ -1,11 +1,11 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef} from 'react'
 import './Contact.css'
 import emailjs from "@emailjs/browser";
 
 export default function Contact() {
-  const [name, setName]=useState('')
-  const [email, setEmail]=useState('')
-  const [message, setMessage]=useState('')
+  // const [name, setName]=useState('')
+  // const [email, setEmail]=useState('')
+  // const [message, setMessage]=useState('')
   const form = useRef();
 
   const handleSubmit= (e)=>{
@@ -36,30 +36,34 @@ export default function Contact() {
         </div>
 
        
-        <form onSubmit={(handleSubmit)} ref={form} className='contact__form'>
+        <form onSubmit={handleSubmit} ref={form} className='contact__form'>
         <label>
       <span>Name:</span>
-      <input
+      <input required
       type="text"
-      onChange={(e)=>setName(e.target.value)}
-      value={name}
+      name='name'
+      
+      // onChange={(e)=>setName(e.target.value)}
+      // value={name}
       />
     </label>
 
     <label>
       <span>Email:</span>
-      <input
+      <input required
       type="email"
-      onChange={(e)=>setEmail(e.target.value)}
-      value={email}
+      name='email'
+      // onChange={(e)=>setEmail(e.target.value)}
+      // value={email}
       />
     </label>
 
     <label>
       <span>Leave a message:</span>
       <textarea 
-       onChange={(e)=>setMessage(e.target.value)}
-      value={message}
+      //  onChange={(e)=>setMessage(e.target.value)}
+      // value={message}
+      name='message'
      
       />
     </label>
