@@ -1,15 +1,26 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import './Contact.css'
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
   const [name, setName]=useState('')
   const [email, setEmail]=useState('')
   const [message, setMessage]=useState('')
+  const form = useRef();
 
   const handleSubmit= (e)=>{
     e.preventDefault()
 
-    console.log(name, email, message)
+    emailjs.sendForm('service_3rrr8cn', 
+    'template_1ruzqeu',
+     form.current,
+      '2hWHPuZBlEgDKjvyV')
+    .then((result)=>{
+      console.log(result.text)
+    }, (error)=> {
+      console.log(error.text)
+    })
+    e.target.reset();
   }
   return (
     <div className='contact'>
@@ -25,7 +36,7 @@ export default function Contact() {
         </div>
 
        
-        <form onSubmit={(handleSubmit)} className='contact__form'>
+        <form onSubmit={(handleSubmit)} ref={form} className='contact__form'>
         <label>
       <span>Name:</span>
       <input
