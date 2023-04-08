@@ -1,6 +1,11 @@
 .footer{
-    color: steelblue;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    background: black;
-    height: 120px;
+    background: linear-gradient(to right,  #221f1f, rgb(41, 30, 32), brown);;
+}
+
+.footer p{
+    color: grey;
+    font-size: 800;
 }

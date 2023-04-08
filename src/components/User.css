@@ -1,18 +1,28 @@
 .home__info{
   display: flex;
   flex-direction: column;
-    height: 500px;
     align-items: center;
     text-align: center;
     justify-content: center;
-    flex-wrap: wrap;
     color: white;
+    color: black;
+    padding: 30px;
+    min-height: 500px;
+    background: linear-gradient(to right,  brown, rgb(41, 30, 32), #221f1f);
+    
 
   
 }
 
+.home__info p{
+  font-size: 2rem;
+  font-weight: 400;
+  color: #fafafa;
+}
+
 .home__name{
     color: steelblue;
+    font-size: 3rem;
     
  }
 
