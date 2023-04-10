@@ -2,9 +2,9 @@
    display: flex;
    flex-direction: column;
    justify-content: center;
-   /* background-color: #221f1f; */
    color: white;
    background: linear-gradient(to right,  #221f1f, rgb(41, 30, 32), brown);
+ 
   
   
    
@@ -47,16 +47,20 @@
 }
 
 .project-image img{
-width: 250px;
+width: 200px;
 height: 150px;
-border: 2px solid silver;
+
 }
+
+
 
 @media screen and (max-device-width: 730px){
     .single-project{
         display: flex;
+        padding: 20px;
        flex-direction: column;
        text-align: center;
+      
       
     }
 }

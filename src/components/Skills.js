@@ -14,7 +14,7 @@ export default function Skills() {
     AOS.init({duration: 2000})
   },[])
   return (
-    <div className='skills' data-aos="zoom-in">
+    <div className='skills'  >
         <div className='skills__header'>
         <h2>Skills</h2>
         </div>

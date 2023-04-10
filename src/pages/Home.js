@@ -3,7 +3,7 @@ import User from '../components/User'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import Skills from '../components/Skills'
-// import Project from '../components/Project'
+import Project from '../components/Project'
 import './Home.css'
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
         <User/>
         <About/>
         <Skills/>
-        {/* <Project/> */}
+        <Project/>
         <Contact/>
       
     </div>

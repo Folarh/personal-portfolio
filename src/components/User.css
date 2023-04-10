@@ -1,5 +1,6 @@
 .home__info{
   display: flex;
+  width: 100%;
   flex-direction: column;
     align-items: center;
     text-align: center;

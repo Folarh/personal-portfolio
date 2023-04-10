@@ -10,7 +10,7 @@ import "./Project.css";
 export default function Project() {
  
   return (
-    <div className="project">
+    <div className="project" >
       <div className="title">
       <h2 >Projects</h2>
       </div>

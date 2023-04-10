@@ -8,14 +8,14 @@ export default function SingleProject({link,img,title,stack, description}) {
   },[])
 
   return (
-    <div className='single-project' >
-      <div className="project-image" data-aos="zoom-in">
+    <div className='single-project' data-aos="zoom-out">
+      <div className="project-image" >
             <a href={link}>
             <img src={img} alt="grace" />
             </a>
             
           </div>
-          <div className="project-title" data-aos="zoom-out">
+          <div className="project-title" >
             <h2>{title}</h2>
             <h3>{stack}</h3>
             <p>

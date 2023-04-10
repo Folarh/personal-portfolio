@@ -13,7 +13,7 @@ const Contact = () => {
   },[])
 
   return (
-    <div className="contact-container" data-aos="flip-right">
+    <div className="contact-container" >  
      
 
       <div className="contact-info">
