@@ -20,6 +20,7 @@
 .about__info p{
     color: #f1f1f1;
     font-weight: 500;
+    line-height: 3rem;
 }
 
    .about-all{
@@ -45,6 +46,11 @@
         flex-direction: column-reverse;
        
        }
+       .about__img{
+      
+        width: 200px;
+       
+    }
    
  }
 
