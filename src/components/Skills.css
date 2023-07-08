@@ -1,76 +1,43 @@
-.skills{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-direction: column;
-    color: white;
-    min-height: 500px;
-    /* background: linear-gradient(to right,  #221f1f, black, #fafafa); */
-    background: linear-gradient(to right,  brown, rgb(41, 30, 32), #221f1f);
-   
-
+.skills {
+  min-height: 70vh;
 }
 
-.skills__header{
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    /* background: linear-gradient(to right, steelblue, crimson, #fafafa) */
-    background: linear-gradient(to right, steelblue, black, #fafafa);
-   
+.skills h1 {
+  text-align: center;
 }
 
-.skills__header h2{
-    color: white;
-    font-size: 800;
+.skills .skills__header {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  align-items: center;
 }
 
-
-.skills__images{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  
+.skills .skills__header span {
+  min-width: 120px;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 80px;
 }
 
-.skills__images__img{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   
-  
-}
-
-.skills__images__img img{
-    width: 40px;
-    height: 50px;
-    border: 2px solid silver;
-    border-radius: 10px;
-}
-
-.skills__images__img p{
-   font-size: 15px;
-   color: #fafafa;
+.skills .skills__header span:hover {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 750px) {
-    .skills__images__img img{
-        width: 50px;
-        height: 40px;
-      
-    }
-   
-    
-}
-
-@media only screen and (max-width: 440px) {
-    
-    .skills__images{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-       
-      
-    }
-    
+  .skills {
+    margin: 2rem;
+  }
+  .skills .skills__header {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
 }

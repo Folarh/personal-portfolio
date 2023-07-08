@@ -1,68 +1,63 @@
 .contact-container {
-  
-    border-radius: 2px;
-    background: linear-gradient(to right,  brown, rgb(41, 30, 32), #221f1f);
-    min-height: 400px;
-    padding:30px;
-    box-shadow: 1px 0px yellow;
-     align-items: center;
+  color: black;
+  border-radius: 2px;
+  min-height: 400px;
+  padding: 30px;
+  align-items: center;
+}
+
+.contact-container h1 {
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 70px;
+}
+
+.contact-phone,
+.contact-address,
+.contact-time,
+.contact-email {
+  text-align: center;
+}
+
+.contact-phone h4,
+.contact-address h4,
+.contact-time h4,
+.contact-email h4 {
+  margin: 20px 0;
+  font-weight: 700;
+  font-size: 24px;
+  color: black;
+}
+
+.contact-phone p,
+.contact-address p,
+.contact-time p,
+.contact-email p {
+  margin: 20px 0;
+  font-size: 14px;
+  color: black;
+}
+
+#icon {
+  font-size: 30px;
+  background-color: black !important;
+  color: white;
+}
+
+@media all and (width <= 768px) {
+  .contact {
+    width: 100%;
+    min-height: 50vh;
+    background-position-y: center;
   }
-  
+
   .contact-info {
     display: flex;
-    justify-content: space-evenly;
-    padding: 70px;
-   
-   
+    flex-direction: column;
+    gap: 10px;
   }
-  
-  .contact-phone,
-  .contact-address,
-  .contact-time,
-  .contact-email {
-    text-align: center;
-  }
-  
-  .contact-phone h4,
-  .contact-address h4,
-  .contact-time h4,
-  .contact-email h4 {
-    margin: 20px 0;
-    font-weight: 700;
-    font-size: 24px;
-    color: #f1f1f1;
-  }
-
-   
-  .contact-phone p,
-  .contact-address p,
-  .contact-time p,
-  .contact-email p{
-    margin: 20px 0;;
-    font-size: 14px;
-    color: #fafafa;
-  }
-  
-  #icon{
-    font-size: 30px;
-    background-color: crimson !important;
-    color: white;
-  }
-
-  
-  
-  
-  
-  @media all and (width <= 768px) {
-    .contact {
-      width: 100%;
-      min-height: 50vh;
-      background-position-y: center;
-    }
-  
-    .contact-info {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-  }
+}

@@ -1,45 +1,48 @@
-.home__info{
-  display: flex;
+.home__info {
   width: 100%;
+
+  padding: 50px;
+  min-height: 90vh;
+  color: black;
+  font-style: italic;
+}
+
+.home__info .home_about {
+  display: flex;
   flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    color: white;
-    color: black;
-    padding: 30px;
-    min-height: 500px;
-    background: linear-gradient(to right,  brown, rgb(41, 30, 32), #221f1f);
-    
-
-  
-}
-
-.home__info p{
-  font-size: 2rem;
+  font-size: 100px;
   font-weight: 400;
-  color: #fafafa;
 }
 
-.home__name{
-    color: steelblue;
-    font-size: 3rem;
-    
- }
+.home__info .home_btn {
+  margin-top: 2rem;
 
- .home__stack{
-    color: rgb(145, 89, 89);
- }
+  padding: 16px;
+}
 
- .home__btn{
-   /* padding: 20px; */
-   border: 1px solid steelblue;
-   color: steelblue;
-   height: 30px;
-   margin-top: 20px;
-   border-radius: 5px;
- }
+.home__info .home_btn button {
+  padding: 10px;
+  background-color: black;
+  min-height: 50px;
+  min-width: 100px;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
 
- .home__btn:hover{
-   background-color: #171515;;
- }
+@media only screen and (max-width: 760px) {
+  .home__info {
+    min-height: 50vh;
+  }
+  .home__info .home_about {
+    font-size: 50px;
+  }
+
+  .home__info .home_btn button {
+    min-height: 30px;
+    min-width: 70px;
+    margin-right: 5px;
+  }
+}

@@ -1,45 +1,26 @@
-import React, { useEffect } from 'react'
-import './About.css'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-import Photo from '../assets/photo.jpg'
+import React, { useEffect } from "react";
+import "./About.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function About() {
-  useEffect(()=>{
-    AOS.init({duration: 2000})
-  },[])
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
-    <div className='about'>
-     <div className='about-header'>
-     <h2>About me</h2>
-     </div>
-
-     <div className='about-all'>
-     <div className='about__info' data-aos="fade-up">
-       <p>
-           I am a web developer that specializes in frontend development,<br/>
-           with a strong foundation in Html Css and Javascript. <br/>
-           Experienced in all the stages of  devlopment cycle <br></br>
-           for dynamic web projects.
-           Well versed in numerous  frontend tools.<br/>
-           I began my career as a fish farmer,<br/>
-           but I have always had interest in technology ,<br/> so I decided to pursue a career in software development.<br/>
-            I took online courses and taught myself the necessary skills to become a software developer.<br/> 
-            Since then, I've been sharpening my frontend developemnt skils.<br/>
-            I'm a recent graduate of AltSchool Africa School of Enigeering<br/>
-            I'm seeking internship opportunies and or junior role, so as to garner real life experience.
-          
-
-           </p>
-</div>
-
-   <div className="about__image" data-aos="fade-down">
-       <img className='about__img' src={Photo} alt="my-pic"></img>
-   </div>
-     </div>
-
-      
-      
+    <div className="about">
+      <h1>About</h1>
+      <div className="about__info" data-aos="fade-up">
+        <span>
+          I’m a creative and result-oriented Full-Stack Developer with
+          experience in developing and implementing interactive, user-friendly,
+          and feature-rich software platforms. Strong ability in paying
+          attention to details, problem-solving and precision at all times which
+          are some of my core values and strength. Hardworking and energetic
+          individual with excellent communication, goal-getter, team player, and
+          leadership skills.
+        </span>
+      </div>
     </div>
-  )
+  );
 }
