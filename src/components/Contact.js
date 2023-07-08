@@ -15,7 +15,6 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <h1>Contact</h1>
-      <p>Lets Work Together</p>
 
       <div className="contact-info">
         <div className="contact-phone" data-aos="zoom-in">
