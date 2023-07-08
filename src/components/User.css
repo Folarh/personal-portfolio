@@ -32,9 +32,15 @@
   margin-right: 10px;
 }
 
+.home__info .home_btn button a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 760px) {
   .home__info {
-    min-height: 50vh;
+    min-height: 80vh;
   }
   .home__info .home_about {
     font-size: 50px;

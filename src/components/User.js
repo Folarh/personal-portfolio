@@ -17,9 +17,17 @@ export default function User() {
       </div>
 
       <div className="home_btn">
-        <button>Github</button>
-        <button>LinkedIn</button>
-        <button>Twitter</button>
+        <button>
+          <a href="https://github.com/Folarh">Github</a>
+        </button>
+        <button>
+          <a href="https://www.linkedin.com/in/taiwo-ojo-2b021b1a6">LinkedIn</a>
+        </button>
+        <button>
+          <a href="https://twitter.com/hardey_folarin?t=0sEflXoUgR5ByRO8enzrTA&s=09">
+            Twitter
+          </a>
+        </button>
       </div>
     </div>
   );
