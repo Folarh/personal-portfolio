@@ -1,6 +1,6 @@
 import Gracey from "../assets/gracey.png";
+import Chatters from "../assets/chatters.png";
 import Github from "../assets/github clone1.png";
-import Ecommerce from "../assets/ecommerce1.png";
 import ForCommerce from "../assets/com.png";
 import SingleProject from "./SingleProject";
 import "./Project.css";
@@ -12,6 +12,13 @@ export default function Project() {
         <h1>Projects</h1>
       </div>
       <div className="all-projects">
+        <SingleProject
+          link="https://chatterz.netlify.app"
+          img={Chatters}
+          title="Chatters App"
+          stack="React Typscript and firbase"
+          description=" A platform where user can create, and have access to their content"
+        />
         <SingleProject
           link="https://forcommerce.netlify.app"
           img={ForCommerce}
@@ -34,14 +41,6 @@ export default function Project() {
           title="Github repository fetch"
           stack="React"
           description="implemented an Api fetch from github Api to fetch repository of a particular user and also implemented proper SEO"
-        />
-
-        <SingleProject
-          link="https://beautycom.netlify.app"
-          img={Ecommerce}
-          title="Ecommerce webpage"
-          stack="React"
-          description=" Created a simple ecoomerce web app with an add to cart and remove fromcart functinality"
         />
       </div>
     </div>

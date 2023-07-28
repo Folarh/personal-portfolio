@@ -13,7 +13,7 @@ export default function User() {
       <div className="home_about">
         <span>Hello 👋</span>
         <span className="home__name">I'm Taiwo Ojo</span>
-        <span className="home__stack">Full-Stack Developer</span>
+        <span className="home__stack">Frontend Developer</span>
       </div>
 
       <div className="home_btn">
